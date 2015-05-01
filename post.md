@@ -142,9 +142,9 @@ Adding the payments-format directive to our form is very simple:
 
 <!-- code lang=javascript linenums=true -->
 
-    <input ng-model="number" placeholder="Card Number" payment-format="card" />
-    <input ng-model="expiry" placeholder="Expiration" payment-format="expiry"/>
-    <input ng-model="cvc" placeholder="CVC" payment-format="cvc" />
+    <input ng-model="number" placeholder="Card Number" payments-format="card" />
+    <input ng-model="expiry" placeholder="Expiration" payments-format="expiry"/>
+    <input ng-model="cvc" placeholder="CVC" payments-format="cvc" />
     
 Check out the [online demo](http://urish.github.io/ng-stripe-tutorial/step2/step2.html) for this step.
 
